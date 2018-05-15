@@ -22,6 +22,9 @@ twitterConfig = {
     'consumer_key': os.environ.get('CONSUMER_KEY'),
     'consumer_secret': os.environ.get('CONSUMER_SECRET')
 }
+# API with request rate limited
+api = twitter.Api(twitterConfig,
+                  sleep_on_rate_limit=True)
 
 # Init sentiment analysis object
 analyzer = SentimentIntensityAnalyzer()
