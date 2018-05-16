@@ -6,6 +6,11 @@ import twitter
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import matplotlib.pyplot as plt
 
+ACCESS_TOKEN = '276176566-rCDQiAgggd4cIqeiHIN8Z18iHMgXyEnH5ZbDIf1R'
+ACCESS_TOKEN_SECRET = 'v4f3Ql6QnBNmLz6acDZPmkGhiXsuMJRyZWAkcalesIb2w'
+CONSUMER_KEY = 'nJIXAllPVZGtKpQJmnH2q8YbC'
+CONSUMER_SECRET = 'O6YzlUQwUOaKEMhBFo6whuULxbtfmLDPCImSTGSmduWD9a2XFK'
+
 # Define the location id for the UK
 WOEID = 23424975
 # Define language of tweets
@@ -16,16 +21,14 @@ TWEETS_TYPE = "recent"
 MAX_STATUSES = 1000
 
 # API config
-twitterConfig = {
-    'access_token_key': os.environ.get('ACCESS_TOKEN'),
-    'access_token_secret': os.environ.get('ACCESS_TOKEN_SECRET'),
-    'consumer_key': os.environ.get('CONSUMER_KEY'),
-    'consumer_secret': os.environ.get('CONSUMER_SECRET')
-}
 # API with request rate limited
-api = twitter.Api(twitterConfig,
+api = twitter.Api(CONSUMER_KEY,
+                  CONSUMER_SECRET,
+                  ACCESS_TOKEN,
+                  ACCESS_TOKEN_SECRET,
                   sleep_on_rate_limit=True)
 
+print(api.VerifyCredentials())
 # Init sentiment analysis object
 analyzer = SentimentIntensityAnalyzer()
 # Compound sentiment extraction use example
