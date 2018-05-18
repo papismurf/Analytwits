@@ -4,6 +4,7 @@ import csv
 
 import twitter
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+import pandas as pd
 import matplotlib.pyplot as plt
 
 ACCESS_TOKEN = '276176566-rCDQiAgggd4cIqeiHIN8Z18iHMgXyEnH5ZbDIf1R'
@@ -33,6 +34,16 @@ print(api.VerifyCredentials())
 # Query the Twitter API for the current top 10 trends in the UK.
 uk_trends = api.GetTrendsWoeid(WOEID)
 print(uk_trends)
+
+
+# Return the 1000 most recent tweets for each trend
+
+for trend in uk_trends:
+    count = MAX_STATUSES
+    trend = trend
+    search_results = api.GetSearch(term=trend, count=count)
+    print(search_results)
+
 # Init sentiment analysis object
 analyzer = SentimentIntensityAnalyzer()
 # Compound sentiment extraction use example
