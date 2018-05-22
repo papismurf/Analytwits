@@ -29,18 +29,22 @@ api = twitter.Api(CONSUMER_KEY,
                   ACCESS_TOKEN_SECRET,
                   sleep_on_rate_limit=True)
 
-print(api.VerifyCredentials())
+# print(api.VerifyCredentials())
 
 # Query the Twitter API for the current top 10 trends in the UK.
 uk_trends = api.GetTrendsWoeid(WOEID)
+
 print(uk_trends)
 
 
 # Return the 1000 most recent tweets for each trend
-
 for trend in uk_trends:
+    '''
+    Extract name of each trend returned by Trend model
+    and search required count value of recent tweets per trend
+    '''
+    trend = str(trend.name)
     count = MAX_STATUSES
-    trend = trend
     search_results = api.GetSearch(term=trend, count=count)
     print(search_results)
 

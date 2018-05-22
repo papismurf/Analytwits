@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2a958c94-74b9-4f7f-addf-802667bc927a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moonshot/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/moonshot/pip-selfcheck.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/moonshot/tweet_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/moonshot/tweet_script.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +17,8 @@
       <file leaf-file-name="task.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="65" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="65" />
+            <state relative-caret-position="-355">
+              <caret line="8" column="61" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="61" />
               <folding>
                 <element signature="e#1354#1365#0" expanded="true" />
               </folding>
@@ -30,8 +29,8 @@
       <file leaf-file-name="tweet_script.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/moonshot/tweet_script.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+            <state relative-caret-position="265">
+              <caret line="42" column="54" selection-start-line="42" selection-start-column="54" selection-end-line="42" selection-end-column="54" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -238,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1526509241241</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="retrieve and print uk trends build 2">
+      <created>1526687813685</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1526687813685</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -257,13 +263,13 @@
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49848714" weight="0.32952693" />
       <window_info id="DB Browser" order="2" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.24962178" side_tool="true" visible="true" weight="0.32952693" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.25037822" side_tool="true" visible="true" weight="0.32952693" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32952693" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49848714" weight="0.32952693" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7503782" visible="true" weight="0.32952693" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7496218" visible="true" weight="0.32952693" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4969743" weight="0.32952693" />
       <window_info anchor="right" id="FAQ Robot" order="3" weight="0.32980332" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2685325" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27231467" />
       <window_info id="Project Explorer" order="2" />
       <window_info id="Job Explorer" order="2" />
       <window_info anchor="bottom" id="Console" order="7" />
@@ -287,9 +293,47 @@
     <MESSAGE value="added api config and rate limit in api request" />
     <MESSAGE value="api configuration" />
     <MESSAGE value="retrieve and print uk trends" />
-    <option name="LAST_COMMIT_MESSAGE" value="retrieve and print uk trends" />
+    <MESSAGE value="retrieve and print uk trends build 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="retrieve and print uk trends build 2" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="61" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="61" />
+          <folding>
+            <element signature="e#1354#1365#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-twitter/README.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" column="14" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-twitter/get_access_token.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="64" />
+          <folding>
+            <element signature="e#618#655#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moonshot/tweet_script.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="15" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/task.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -456,16 +500,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="65" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="65" />
-          <folding>
-            <element signature="e#1354#1365#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python-twitter/doc/Makefile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2742" />
@@ -478,10 +512,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/python-twitter/doc/changes_to_tweet_counting.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-355">
+          <caret line="8" column="61" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="61" />
+          <folding>
+            <element signature="e#1354#1365#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/moonshot/tweet_script.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+        <state relative-caret-position="265">
+          <caret line="42" column="54" selection-start-line="42" selection-start-column="54" selection-end-line="42" selection-end-column="54" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
