@@ -7,12 +7,13 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import pandas as pd
 import matplotlib.pyplot as plt
 
-ACCESS_TOKEN = '276176566-rCDQiAgggd4cIqeiHIN8Z18iHMgXyEnH5ZbDIf1R'
-ACCESS_TOKEN_SECRET = 'v4f3Ql6QnBNmLz6acDZPmkGhiXsuMJRyZWAkcalesIb2w'
-CONSUMER_KEY = 'nJIXAllPVZGtKpQJmnH2q8YbC'
-CONSUMER_SECRET = 'O6YzlUQwUOaKEMhBFo6whuULxbtfmLDPCImSTGSmduWD9a2XFK'
+ACCESS_TOKEN = 'ACCESS_TOKEN'
+ACCESS_TOKEN_SECRET = 'ACCESS_TOKEN_SECRET'
+CONSUMER_KEY = 'CONSUMER_KEY'
+CONSUMER_SECRET = 'CONSUMER_SECRET'
 
 # Define the location id for the UK
+# With Yahoo Where on Earth ID
 WOEID = 23424975
 # Define language of tweets
 LANG = "en"
@@ -21,7 +22,7 @@ TWEETS_TYPE = "recent"
 # Define max number of tweets per trend
 MAX_STATUSES = 1000
 
-# API config
+# API configuration
 # API with request rate limited
 api = twitter.Api(CONSUMER_KEY,
                   CONSUMER_SECRET,
@@ -29,6 +30,7 @@ api = twitter.Api(CONSUMER_KEY,
                   ACCESS_TOKEN_SECRET,
                   sleep_on_rate_limit=True)
 
+# Check twitter account api details are correct
 # print(api.VerifyCredentials())
 
 # Query the Twitter API for the current top 10 trends in the UK.
