@@ -54,8 +54,8 @@ for trend in uk_trends:
 analyzer = SentimentIntensityAnalyzer()
 # Loop through tweets and analyse sentiment polarity
 for result in search_results:
-    result = list(str(result.text))
-    statuses = result[0][3]
+    result = result.text
+    statuses = result
     compoundSentiment = analyzer.polarity_scores(statuses)
     print(compoundSentiment)
 
