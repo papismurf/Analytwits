@@ -59,6 +59,11 @@ for result in search_results:
     compoundSentiment = analyzer.polarity_scores(statuses)
     print(compoundSentiment)
 
+# Export a csv file to the output_files folder which contains some statistical/aggregate information
+# in tabular format about the top 10 trends based on their related tweets and/or their sentiment values.
+
+
 # Compound sentiment extraction use example
 # exampleCompoundSentiment = analyzer.polarity_scores("I love cats and dogs")["compound"]
 # print(exampleCompoundSentiment)
+
